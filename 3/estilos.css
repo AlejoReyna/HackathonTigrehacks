@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main-container {
+    display: flex;
+    background-image: url("/1/Imagenes/cont.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 968px;
+    
+}
+
+.sub-container {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    width: 82%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+
+}
